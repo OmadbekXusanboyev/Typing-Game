@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Game</title>
+    <!-- css link -->
+    <link rel="stylesheet" href="./css/main.css">
+    <!-- title icon -->
+     <link rel="icon" type="img" href="https://cdn-icons-png.flaticon.com/512/1188/1188519.png">
+</head>
+<body>
+    <div class="container">
+        <div class="block">
+           <div class="box">
+            <div class="admin">
+                Typing Game
+            </div>
+            <select class="select" id="level">
+                <option value="Easy">Easy</option>
+                <option value="Medium">Medium</option>
+                <option value="Hard">Hard</option>
+            </select>
+            <div class="nav">
+                <div>score: <span class="score">0</span></div>
+                <div>HightScore: <span class="HightScore">0</span></div>
+            </div>
+           </div>
+            <div class="text1">Loading...</div>
+             <input placeholder="So'zni kiriting...." class="input1" id="input1" type="text" autofocus>
+            <div class="time">
+                time: <span class="gameTime">10</span>
+            </div>
+           
+            
+            <div class="modal">
+                <div class="text2">Game Over </div>
+                <div class="text3">Your result: <span class="nowResult">0</span></div>
+                <div class="btn"><a href="">TRY AGAIN</a></div>
+            </div>
+        </div>
+    </div>
+    <script src="./js/main.js"></script>
+</body>
+</html>
